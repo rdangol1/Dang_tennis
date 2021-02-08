@@ -1,0 +1,250 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Teko:wght@300&display=swap');
+
+
+body{
+    font-family: 'Teko', sans-serif;
+    margin:0;
+}
+
+.hero-bg{
+    
+    background: #307D99 url('pic8.jpg');
+    background-repeat: no-repeat;
+    color: rgb(11, 24, 2);
+    background-position: 35% 75% ;
+    padding-bottom: 4em;
+   
+}
+
+.hero-bg a{
+    color:rgb(11, 24, 2);
+    text-decoration: none;
+    font-weight: bold;
+    text-align:left;  
+    padding-left: 1 em;
+    font-size: 1.5 rem;
+   
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'Teko', sans-serif;
+    padding-left: 1.2em;
+}
+
+.search-container{
+    font-weight: bold;
+    display: block;
+    font-size: 1.5rem;
+    padding-left: 1.5em;
+    padding-top: -6em;
+    color:rgb(8, 7, 2);
+    text-align: left;
+    
+
+}
+input[type= text]{
+    border: none;
+    width:30%;
+    border-radius:0.5em;
+    box-sizing: border-box;
+    border: 0.5px solid black;
+}
+
+input[type = button]{
+    background-color: #024717;
+    padding-right: 2em;
+    cursor:pointer;
+    color:darkgoldenrod;
+    border-radius:0.5em;
+    width: 30%;
+    font-weight:bold;
+    font-size: 1.2 rem;
+}
+
+ul{
+    font-size: 1.5rem;
+    margin:0;
+}
+
+li {
+    display:inline;
+    padding: 8px;
+}
+
+.options{
+   padding: 0.5em;
+   background-color: wheat;
+   color: #F89104;
+   text-decoration: none;
+}
+
+.options a{
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.5rem;
+    color:black;
+    
+}
+
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+    color:whitesmoke;
+}
+
+h4{
+    text-align: center;
+    font-size: 1.5rem;
+    color:whitesmoke;
+}
+h5{
+    text-align: center;
+    font-size: 1.5rem;
+    color:whitesmoke;
+}
+
+.one{
+    padding-right: 0.7em;
+    padding-left: 0.7em;
+    background-image: url('pic6.jpg');
+    background-repeat: no-repeat;
+    background-position: 12% 75%;
+    color: #F89104;
+}
+
+.two{
+    padding-right: 0.7em;
+    padding-left: 0.7em;
+    background-image: url('pic_three.jpg');
+    background-repeat: no-repeat;
+}
+
+.three{
+    padding-right: 0.7em;
+    padding-left: 0.7em;
+    background-image: url('pic_two.jpg');
+    background-repeat: no-repeat;
+    
+    color:whitesmoke
+}
+
+.four{
+    text-align: center;
+    padding: 3px;
+    background-image: url('pic1.jpg');
+    background-repeat: no-repeat;
+    color: white;
+}
+h5{
+    font-size: 1.5rem;
+}
+
+footer{
+    background-color: rgb(185, 154, 28);
+}
+
+.overlay{
+    position:absolute;
+    height:100vh;
+    width:100%;
+    background: rgba(0,0,0,.9);
+    place-content: center;
+    color:whitesmoke;
+    display: none;
+    
+}
+
+
+@media(min-width: 537px){
+
+    .search-container{
+       
+        font-size: 2 rem;
+        padding-left: 2.5em;
+        padding-top: -6em;
+        color:rgb(248, 182, 15);
+    }
+    h1{
+        padding-left: 3em;
+    }
+    .hero-bg a{
+    
+        padding-left: 2 em;
+    }
+}
+
+@media(min-width: 595px){
+    .float-container{
+        border: 1px solid #fff;
+        padding: 20px;
+        display:grid;
+        grid-template-columns :repeat(2, 50%);
+    }
+}
+@media(min-width: 1249px){
+
+    .options a{
+        font-size: 1.75rem;
+    }
+    .search-container{
+        font-size: 2rem;
+    }
+    h1{
+        font-size: 5rem;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    
+    h3{
+        font-size: 2.5em;
+    }
+    
+    h4{
+        font-size: 2.5rem;
+    }
+    h5{
+        font-size: 2.5rem;
+    }
+    
+    .one p{
+        font-size: 1.5rem;
+    }
+    footer{
+        padding-right: 0.7em;
+        padding-left: 0.7em;
+    }
+    
+    h6{
+        font-size: 2.5rem;
+    }
+    footer p{
+        font-size: 1.5rem;
+    }
+    a{
+        font-size: 1.5rem;
+    }
+    .float-container p{
+        font-size: 1.75rem;
+    }
+
+    input[type= text]{
+        padding: 0.5em 0;
+    }
+    
+    input[type = button]{
+        padding: 0.5em 0;
+        font-size: 1.75 em;
+    }
+
+}
+
+
+

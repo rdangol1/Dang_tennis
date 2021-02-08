@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href ="css/main.css">
+    <link rel="stylesheet" href ="part2.html"
+</head>
+<body>
+    <div class="overlay" id="overlay">
+        <h7>Seaching Now...</h7>
+
+    </div>
+
+    <section>
+        <div class="hero-bg">
+        
+            <header> 
+                <a href="#"> Dang.tennis</a>
+                <h1> Dang's Tennis Center </h1>
+            </header>
+    
+            <div class = "search-container">
+                <label for= "search">Search:</label>
+                <br>
+                <input type = "text" name= "text" id = "text">
+                <br>
+                <input type ="button" value= "Go" id="btn" >
+            </div>
+        </div>
+    </section>
+    <section class="options">
+        <div>
+            <form action = "">
+                <nav>
+                    <ul >
+                        <li><a href="#">Join Us</a></li>
+                        <li><a href="#">Court Booking</a></li>
+                        <li><a href="#">Class Booking</a></li>
+                    </ul>
+                </nav> 
+            </form>
+        </div>
+    </section>
+    <div class="float-container">
+       
+        <div class="one">
+            <h2>About</h2>
+            <p> Tennis is a fun, thrilling and an energetic sport and at Dang's tennis center we take that seriously. Our organization was open in 2010 and have produced numerous outstanding players.</p>
+        </div>
+    
+        <div class="two">
+            <h3>Equipment</h3>
+            <p> We provide a wide range of equipment offering full lines of racquets and accessories. We carry Babolat, Wilson, & Head racquets and accessories. String and re-gripping services are also available.</p>
+        </div>
+    
+
+    
+        <div class="three">
+            <h4>Staff</h4>
+            <p> Our staff members are always here to help for any inquiries. We have at least 3 staff members on site at any time. We understand the value of your time and are determined to provide outstanding customer service.  </p>
+        </div>
+
+    
+        <div class="four">
+            <h5>Contact Us</h5>
+            <p>Phone: 720-989-4367</p>
+            <p>Email: dangtennis@gmail.com</p>
+            <p>Location: 18th Street Couscous St, Denver CO</p>
+        </div>
+
+    </div>
+
+    <script>
+        let btn = document.getElementById('btn');
+
+        let overlay = document.getElementById('overlay');
+
+        btn.addEventListener('click', () =>{
+            overlay.style.display ='grid';
+
+        })
+
+    </script>
+    
+</body>
+
+<footer>
+    <h6> Let's Play Tennis</h6>
+    <p>© 2021 by RD. All Rights Reserved. Dang's Tennis Center Is Proud To Serve the Colorado Tennis Community</p>
+
+</footer>
+
+</html>
